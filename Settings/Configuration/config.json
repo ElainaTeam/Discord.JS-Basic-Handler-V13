@@ -1,0 +1,8 @@
+{
+    "prefix" : "your-prefix",
+    "token" : "your-token-bot",
+    "ownerID" : "your-discord-id",
+
+    "server" : "https://discord.gg/PDhTzwCXdm",
+    "invite" : "https://discord.com/api/oauth2/authorize?client_id=925658383204352020&permissions=8&scope=bot%20applications.commands"
+}
