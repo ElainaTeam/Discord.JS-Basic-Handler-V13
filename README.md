@@ -26,8 +26,8 @@ Official Repository of Discord.JS Tutorials by DiozVN on YouTube
 
 - `node .` run the bot
 
-## Where do I watch the video and link?
-[**Youtube Tutorial**](https://www.youtube.com/watch?v=ByVaFGr-ypw&list=PL5d83kTL8Wxu_sh16iTO8l5AKOxC3k3rm)<br>
+## Link me?
+[**Youtube Tutorial**](https://www.youtube.com/channel/UCYwiSvAyyEDwlWUp_LElydA)<br>
 [**Github**](https://github.com/DiozVN)<br>
 [**Discord Server**](https://discord.com/invite/PDhTzwCXdm)<br>
 [**Website**](UpdateSoon)
