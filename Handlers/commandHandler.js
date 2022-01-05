@@ -2,7 +2,7 @@ const fs = require('fs');
 const ascii = require('ascii-table');
 
 let table = new ascii("Danh Sách Commands");
-table.setHeading("Tên", " Trạng Thái");
+table.setHeading("Name", " Status");
 
 module.exports = (client) => {
     // let command = 0
@@ -18,9 +18,9 @@ module.exports = (client) => {
                 // command++;
                 client.commands.set(pull.name, pull);
                 // table.addRow(file, '✅  > Hoạt Động');
-                table.addRow(file, `✅  > Hoạt Động`)
+                table.addRow(file, `✅  > Working`)
             } else {
-                table.addRow(file, `❌  > Lỗi`);
+                table.addRow(file, `❌  > Error`);
                 continue;
             }
 

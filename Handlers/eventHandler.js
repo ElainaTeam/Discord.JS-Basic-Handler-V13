@@ -1,8 +1,8 @@
 const fs = require('fs');
 const ascii = require('ascii-table');
 
-let table = new ascii("Danh Sách Events");
-table.setHeading("Tên", " Trạng Thái");
+let table = new ascii("List Events");
+table.setHeading("Name", " Status");
 
 module.exports = (client) => {
     fs.readdirSync(`./Events/`).forEach(dir => {
@@ -15,14 +15,14 @@ module.exports = (client) => {
 
                 if (pull.name) {
                     client.events.set(pull.name, pull);
-                    table.addRow(file, `❌  > Lỗi`);
+                    table.addRow(file, `❌  > Error`);
                 } else {
-                    table.addRow(file, `✅  > Hoạt Động`);
+                    table.addRow(file, `✅  > Working`);
                     continue;
                 }
             } catch (e) {
                 console.log(e)
-                table.addRow(file, `❌  > Đã có lỗi xảy ra khi chạy`);
+                table.addRow(file, `❌  > An error occurred while running`);
             }
 
         }
